@@ -8,13 +8,15 @@ import { MedexMaterialModule } from './app-ui.module';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { LauncherPageComponent } from './launcher-page/launcher-page.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    LauncherPageComponent
+    LauncherPageComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
