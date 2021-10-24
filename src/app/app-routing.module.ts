@@ -1,3 +1,4 @@
+import { ProfileComponent } from './profile/profile.component';
 import { LauncherPageComponent } from './launcher-page/launcher-page.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -18,6 +19,11 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent,
+    canActivate: [],
+  },
+  {
+    path: "profile",
+    component: ProfileComponent,
     canActivate: [],
   },
 ];
